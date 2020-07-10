@@ -52,7 +52,7 @@ We intend to utilize azure keyvault as a certificate store. However, key-vault e
 ### Deployment
 The below diagram dipicts the POC environment
 ![](./.attachments/ADO-Nginx-SSL.png)
-The deployment consists of three services.
+The deployment consists of three services
 
 - demositeroot - An nginx custom image configured to listen on host [demosite.aksinternal.com/]() on port 443 with pre configured certificate.
 - demositepath - An nginx custom image configured to listen on host [demosite.aksinternal.com/hello]() on port 443 with pre configured certificate.
