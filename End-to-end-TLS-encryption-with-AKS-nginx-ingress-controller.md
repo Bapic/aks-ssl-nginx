@@ -8,7 +8,7 @@ Last Modified: 4th June 2020
 
 ## Introduction
 
-Most organisation's security framework mandates encryption at rest and in transit. For web traffic,**TLS 1.2** is required at a minimum. Data encryption is allowed to be terminated in memory and then re-encrypted at a Load Balancer or Web Application Firewall.
+Most organization's security framework mandates encryption at rest and in transit. For web traffic,**TLS 1.2** is required at a minimum. Data encryption is allowed to be terminated in memory and then re-encrypted at a Load Balancer or Web Application Firewall.
 This guide will help you create a POC environment to configure end to end ssl for AKS with path and host based routing.
 
 ## Scenario
