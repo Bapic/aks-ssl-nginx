@@ -50,8 +50,7 @@ We intend to utilize azure keyvault as a certificate store. However, key-vault e
 * Download the certs from [github](https://github.com/manish-anand-n/aks-ssl-nginx)
 
 ### Deployment
-The below diagram dipicts the POC environment
-![](./.attachments/ADO-Nginx-SSL.png)
+
 The deployment consists of three services
 
 - demositeroot - An nginx custom image configured to listen on host [demosite.aksinternal.com/]() on port 443 with pre configured certificate.
